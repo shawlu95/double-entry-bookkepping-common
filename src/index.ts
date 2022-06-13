@@ -10,9 +10,15 @@ export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
-export * from './account-type';
-export * from './entry-type';
+export * from './enums/account-type';
+export * from './enums/entry-type';
+
 export * from './events/subjects';
+export * from './events/account-created-event';
+export * from './events/account-updated-event';
+export * from './events/transaction-created-event';
+export * from './events/transaction-updated-event';
+export * from './events/transaction-deleted-event';
 
 export * from './clients/base-listener';
 export * from './clients/base-publisher';
