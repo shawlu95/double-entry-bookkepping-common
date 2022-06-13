@@ -10,6 +10,7 @@ export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
+export * from './asset-class';
 export * from './events/subjects';
 
 export * from './clients/base-listener';
