@@ -11,6 +11,7 @@ export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
 export * from './account-type';
+export * from './entry-type';
 export * from './events/subjects';
 
 export * from './clients/base-listener';
