@@ -7,6 +7,7 @@ export interface TransactionCreatedEvent {
     id: string;
     userId: string;
     memo: string;
+    date: Date;
     entries: Entry[];
   };
 }
