@@ -13,6 +13,8 @@ export * from './middlewares/validate-request';
 export * from './enums/account-type';
 export * from './enums/entry-type';
 
+export * from './interfaces/entry';
+
 export * from './events/subjects';
 export * from './events/account-created-event';
 export * from './events/account-updated-event';
