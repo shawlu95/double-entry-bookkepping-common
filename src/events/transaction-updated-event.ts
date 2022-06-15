@@ -8,6 +8,9 @@ export interface TransactionUpdatedEvent {
     userId: string;
     memo: string;
     date: Date;
-    entries: Entry[];
+    entries: {
+      old: Entry[];
+      new: Entry[];
+    };
   };
 }
