@@ -16,6 +16,7 @@ export * from './enums/entry-type';
 export * from './interfaces/entry';
 
 export * from './events/subjects';
+export * from './events/user-signup-event';
 export * from './events/account-created-event';
 export * from './events/account-updated-event';
 export * from './events/transaction-created-event';
