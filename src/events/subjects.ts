@@ -3,6 +3,7 @@ export enum Subjects {
 
   AccountCreated = 'account:created',
   AccountUpdated = 'account:updated',
+  AccountClosed = 'account:closed',
 
   TransactionCreated = 'transaction:created',
   TransactionUpdated = 'transaction:updated',

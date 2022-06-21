@@ -19,6 +19,7 @@ export * from './events/subjects';
 export * from './events/user-signup-event';
 export * from './events/account-created-event';
 export * from './events/account-updated-event';
+export * from './events/account-closed-event';
 export * from './events/transaction-created-event';
 export * from './events/transaction-updated-event';
 export * from './events/transaction-deleted-event';
