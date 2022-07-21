@@ -6,7 +6,7 @@ export * from './errors/not-found-error';
 export * from './errors/request-validation-error';
 
 export * from './middlewares/error-handler';
-export * from './middlewares/require-auth';
+export * from './middlewares/authenticate';
 export * from './middlewares/validate-request';
 
 export * from './enums/account-type';
