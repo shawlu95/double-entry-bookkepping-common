@@ -1,7 +1,5 @@
 import { StatusCodes } from 'http-status-codes';
 import { Request, Response, NextFunction } from 'express';
-import { RequestValidationErorr } from '../errors/request-validation-error';
-import { DatabaseConnectionError } from '../errors/database-connection-error';
 import { CustomError } from '../errors/custom-error';
 
 /** @notice Return consistently-formatted error to the caller */
